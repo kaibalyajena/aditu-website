@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Birthday Card</title>
+    <!-- Google Font-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>  
+
+  <!-- <audio controls autoplay>
+    <source src="song.mp3" type="audio/mpeg">
+  </audio> -->
+
+  <div id="coll" style="display: none;">
+    <div class="extra">
+      <video width="11%" height="11%" loop muted autoplay="autoplay" style="border-radius: 10px; margin-left: 8px; margin-top: 5px;" class="thumbnail">
+        <source src="prom.mp4">
+    </video>
+    </div>
+    <div style="position:absolute; left: 1270px; top: 0px;">
+      <video width="75%" height="75%" loop muted autoplay="autoplay" style="border-radius: 10px;  margin-left: 25px; margin-top: 5px;" class="thumbnail">
+        <source src="fun2.mp4">
+    </video>
+    </div>
+    <div style="position:absolute; left: 170px; top: 545px;">
+      <video width="15%" height="15%" loop muted autoplay="autoplay" style="border-radius: 10px;  margin-left: 5px; margin-top: 5px;" class="thumbnail">
+        <source src="fun.mp4">
+    </video>
+    </div>
+    <div style="position:absolute; left: 170px; top: 340px;">
+      <img src="fun3.png" width="9%" height="9%" style="border-radius: 10px;  margin-left: 5px; margin-top: 5px;" class="thumbnail">
+    </img>
+    </div>
+    <div style="position:absolute; left: 1300px; top: 240px;">
+      <img src="sc1.png" width="82%" height="25%" style="border-radius: 10px;  margin-left: 5px; margin-top: 5px;" class="thumbnail">
+    </img>
+    </div>
+    <div style="position:absolute; left: 170px; top: 105px;">
+      <img src="sc2.png" width="15%" height="15%" style="border-radius: 10px;  margin-left: 5px; margin-top: 5px;" class="thumbnail">
+    </img>
+    </div>
+    <div style="position:absolute; left: 1160px; top: 650px;">
+      <video width="38%" height="25%" loop muted autoplay="autoplay" style="border-radius: 10px;  margin-left: 5px; margin-top: 5px;"class="thumbnail">
+        <source src="dance.mp4">
+    </video>
+    </div>
+    <div style="position:absolute; left: 285px; top: 220px;">
+      <video width="10%" height="10%" loop muted autoplay="autoplay" style="border-radius: 10px;  margin-left: 5px; margin-top: 5px;"class="thumbnail">
+        <source src="bas.mp4">
+    </video>
+    </div>
+    <div style="position:absolute; left: 1175px; top: 240px;">
+      <video width="40%" height="10%" loop muted autoplay="autoplay" style="border-radius: 10px;  margin-left: 5px; margin-top: 5px;"class="thumbnail">
+        <source src="swirl.mp4">
+    </video>
+    </div>
+    <div style="position:absolute; left: 10px; top: 285px;">
+      <img src="sc11.png" width="14%" height="10%" style="border-radius: 10px;  margin-left: 5px; margin-top: 5px;"class="thumbnail">
+    </img>
+    </div>
+    <div style="position:absolute; left: 1180px; top: 0px;">
+      <img src="sc12.png" width="40%" height="25%" style="border-radius: 10px;  margin-left: 5px; margin-top: 5px;"class="thumbnail">
+    </img>
+    </div>
+    <div style="position:absolute; left: 170px; top: 0px;">
+      <img src="sc10.png" width="12%" height="12%" style="border-radius: 10px;  margin-left: 5px; margin-top: 5px;"class="thumbnail">
+    </img>
+    </div>
+    <div style="position:absolute; left: 285px; top: 105px;">
+      <img src="sc9.png" width="15%" height="15%" style="border-radius: 10px;  margin-left: 5px; margin-top: 5px;"class="thumbnail">
+    </img>
+    </div>
+    <div style="position:absolute; left: 1000px; top: 0px;">
+      <img src="sc3.png" width="40%" height="15%" style="border-radius: 10px;  margin-left: 5px; margin-top: 5px;"class="thumbnail">
+    </img>
+    </div>
+    <div style="position:absolute; left: 5px; top: 730px;">
+      <img src="sc4.png" width="10%" height="15%" style="border-radius: 10px;  margin-left: 5px; margin-top: 5px;"class="thumbnail">
+    </img>
+    </div>
+    <div style="position:absolute; left: 5px; top: 520px;">
+      <img src="sc5.png" width="13%" height="10%" style="border-radius: 10px;  margin-left: 5px; margin-top: 5px;"class="thumbnail">
+    </img>
+    </div>
+    <div style="position:absolute; left: 400px; top: 220px;">
+      <img src="sc8.png" width="10%" height="10%" style="border-radius: 10px;  margin-left: 5px; margin-top: 5px;" class="thumbnail">
+    </img>
+    </div>
+    <div style="position:absolute; left: 1080px; top: 110px;">
+      <img src="sc6.png" width="25%" height="10%" style="border-radius: 10px;  margin-left: 5px; margin-top: 5px;" class="thumbnail">
+    </img>
+    </div>
+    <div style="position:absolute; left: 1300px; top: 430px;">
+      <img src="sc7.png" width="80%" height="10%" style="border-radius: 10px;  margin-left: 5px; margin-top: 5px;"class="thumbnail">
+    </img>
+    </div>
+    <div style="position:absolute; left: 1270px; top: 730px;">
+      <img src="sc13.png" width="90%" height="10%" style="border-radius: 10px;  margin-left: 5px; margin-top: 5px;"class="thumbnail">
+    </img>
+    </div>
+    <div style="position:absolute; left: 285px; top: 420px;">
+      <img src="sc14.png" width=15% height="10%" style="border-radius: 10px;  margin-left: 5px; margin-top: 5px;"class="thumbnail">
+    </img>
+    </div>
+    <div style="position:absolute; left: 1290px; top: 530px;">
+      <img src="sc15.png" width="90%" height="10%" style="border-radius: 10px;  margin-left: 5px; margin-top: 5px;"class="thumbnail">
+    </img>
+    </div>
+    <div style="position:absolute; left: 1130px; top: 540px;">
+      <img src="sc16.png" width="50%" height="10%" style="border-radius: 10px;  margin-left: 5px; margin-top: 5px;"class="thumbnail">
+    </img>
+    </div>
+    <div style="position:absolute; left: 880px; top: 0px;">
+      <img src="sc17.png" width="20%" height="10%" style="border-radius: 10px;  margin-left: 5px; margin-top: 5px;"class="thumbnail">
+    </img>
+    </div>
+    <div style="position:absolute; left: 167px; top: 738px;">
+      <img src="sc18.png" width="14%" height="10%" style="border-radius: 10px;  margin-left: 5px; margin-top: 5px;"class="thumbnail">
+    </img>
+    </div>
+    <div style="position:absolute; left: 1170px; top: 430px;">
+      <img src="sc19.png" width="40%" height="10%" style="border-radius: 10px;  margin-left: 5px; margin-top: 5px;"class="thumbnail">
+    </img>
+    </div>
+    <div style="position:absolute; left: 327px; top: 0px;">
+      <img src="sc20.png" width="13%" height="10%" style="border-radius: 10px;  margin-left: 5px; margin-top: 5px;"class="thumbnail">
+    </img>
+    </div>
+    <div style="position:absolute; left: 457px; top: 0px;">
+      <video width="11%" height="11%" loop muted autoplay="autoplay" style="border-radius: 10px;  margin-left: 25px; margin-top: 5px;" class="thumbnail">
+        <source src="md.mp4">
+    </video>
+    </div>
+    <div style="position:absolute; left: 1070px; top: 285px;">
+      <img src="sc21.png" width="25%" height="10%" style="border-radius: 10px;  margin-left: 5px; margin-top: 5px;"class="thumbnail">
+    </img>
+    </div>
+    <div style="position:absolute; left: 1060px; top: 650px;">
+      <img src="sc22.png" width="25%" height="10%" style="border-radius: 10px;  margin-left: 5px; margin-top: 5px;"class="thumbnail">
+    </img>
+    </div>
+    <div style="position:absolute; left: 280px; top: 620px;">
+      <img src="sc23.png" width="10%" height="10%" style="border-radius: 10px;  margin-left: 5px; margin-top: 5px;"class="thumbnail">
+    </img>
+    </div>
+    <div style="position:absolute; left: 1050px; top: 455px;">
+      <img src="sc24.png" width="30%" height="10%" style="border-radius: 10px;  margin-left: 5px; margin-top: 5px;"class="thumbnail">
+    </img>
+    </div>
+    <div style="position:absolute; left: 400px; top: 390px;">
+      <img src="sc25.png" width="20%" height="10%" style="border-radius: 10px;  margin-left: 5px; margin-top: 5px;"class="thumbnail">
+    </img>
+    </div>
+    <div style="position:absolute; left: 590px; top: 0px;">
+      <img src="sc26.png" width="15%" height="10%" style="border-radius: 10px;  margin-left: 5px; margin-top: 5px;"class="thumbnail">
+    </img>
+    </div>
+    <div style="position:absolute; left: 710px; top: 0px;">
+      <video width="18%" height="11%" loop muted autoplay="autoplay" style="border-radius: 10px;  margin-left: 25px; margin-top: 5px;" class="thumbnail">
+        <source src="nd.mp4">
+    </video>
+    </div>
+    <div style="position:absolute; left: 950px; top: 670px;">
+      <img src="sc27.png" width="26%" height="10%" style="border-radius: 10px;  margin-left: 5px; margin-top: 5px;"class="thumbnail">
+    </img>
+    </div>
+    <div style="position:absolute; left: 370px; top: 690px;">
+      <img src="sc28.png" width="15%" height="10%" style="border-radius: 10px;  margin-left: 5px; margin-top: 5px;"class="thumbnail">
+    </img>
+    </div>
+    <div style="position:absolute; left: 480px; top: 195px;">
+      <img src="sc29.png" width="13%" height="10%" style="border-radius: 10px;  margin-left: 5px; margin-top: 5px;"class="thumbnail">
+    </img>
+    </div>
+    <div style="position:absolute; left: 480px; bottom: 0px;;">
+      <img src="sc30.png" width="30%" height="10%" style="border-radius: 10px;  margin-left: 5px; margin-top: 5px;"class="thumbnail">
+    </img>
+    </div>
+    <div style="position:absolute; left: 400px; top: 590px;">
+      <img src="sc31.png" width="16%" height="10%" style="border-radius: 10px;  margin-left: 5px; margin-top: 5px;"class="thumbnail">
+    </img>
+    </div>
+    <div style="position:absolute; left: 880px; top: 130px;">
+      <img src="sc32.png" width="30%" height="10%" style="border-radius: 10px;  margin-left: 5px; margin-top: 5px;"class="thumbnail">
+    </img>
+    </div>
+    <div style="position:absolute; left: 570px; top: 390px;">
+      <img src="sc33.png" width="16%" height="10%" style="border-radius: 10px;  margin-left: 5px; margin-top: 5px;"class="thumbnail">
+    </img>
+    </div>
+    <div style="position:absolute; left: 753px; top:570px;">
+      <video width="25%" height="11%" loop muted autoplay="autoplay" style="border-radius: 10px;  margin-left: 25px; margin-top: 5px;" class="thumbnail">
+        <source src="spin.mp4">
+    </video>
+    </div>
+    <div style="position:absolute; left: 585px; top: 185px;">
+      <video width="15%" height="11%" loop muted autoplay="autoplay" style="border-radius: 10px;  margin-left: 25px; margin-top: 5px;" class="thumbnail">
+        <source src="funny.mp4">
+    </video>
+    </div>
+
+    
+  </div>
+    <div class="card">
+      <div class="outside">
+        <div class="front">
+          <p>Happy Birthday</p>
+          <div class="cake">
+            <div class="top-layer" ></div>
+            <div class="middle-layer" ></div>
+            <div class="bottom-layer" ></div>
+            <div class="candle"></div>
+          </div>
+        </div>
+        <div class="back"></div>
+      </div>
+      <div class="inside">
+        <p>Wishing you a very happy birthday filled with love and laughter</p>
+        <p>you are one of the best people I met this year</p>
+        <p class="hov">Hope you liked it ......</p>
+        <button onclick="func()" style="background: none; border: none; padding:0;"><h1>&#127873;</h1></button>
+      </div>
+    </div>
+    <script>
+      const targetDiv = document.getElementById("coll");
+      function func() {
+        if (targetDiv.style.display !== "none") {
+          targetDiv.style.display = "none";
+        } else {
+          targetDiv.style.display = "block";
+        }
+      };
+    </script>
+  </body>
+</html>
